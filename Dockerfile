@@ -30,6 +30,6 @@ RUN \
 #
 RUN /root/docker-files/scripts/download_openhab.sh
 
-EXPOSE 8080 8443 5555 9001
+EXPOSE 8081 8444 5555 9001
 
 CMD ["/usr/local/bin/boot.sh"]
